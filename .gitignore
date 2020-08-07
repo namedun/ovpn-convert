@@ -1,9 +1,13 @@
 ovpn-converter
 build/
-*.json
 *.log
+.idea/
+*.mo
+*.po~
+.tmp/
 
 # CMake
+cmake-build-*/
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles

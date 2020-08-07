@@ -1,0 +1,87 @@
+# Russian translations for ovpn-convert package
+# Русские переводы для пакета ovpn-convert
+# Copyright (C) 2020 Anton Kikin <a.kikin@tano-systems.com>
+# This file is distributed under the same license as the ovpn-convert package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ovpn-convert\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-28 17:57+0300\n"
+"PO-Revision-Date: 2020-08-28 05:52+0300\n"
+"Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2\n"
+
+#: src/ovpn-parse.c:283
+msgid "Ending inline option is not match starting inline option"
+msgstr ""
+"Закрывающая встраиваемая (inline) опция не соответствует открывающей опции"
+
+#: src/ovpn-parse.c:578
+#, c-format
+msgid "Option '%s' can be used only in standalone mode"
+msgstr "Опция «%s» может использоваться только в автономном режиме"
+
+#: src/ovpn-parse.c:328
+#, c-format
+msgid "Option '%s' can not be used in inline form"
+msgstr "Опция «%s» не может использоваться в форме встраиваемой (inline) опции"
+
+#: src/ovpn-parse.c:698
+#, c-format
+msgid "Option '%s' has invalid argument #%d (%s) value '%s'"
+msgstr "Опция «%1$s» имеет неверное значение «%4$s» аргумента #%2$d (%3$s)"
+
+#: src/ovpn-parse.c:568
+#, c-format
+msgid "Option '%s' is deprecated and can be removed in future OpenVPN versions"
+msgstr "Опция «%s» устарела и может быть удалена в будущих версиях OpenVPN"
+
+#: src/ovpn-parse.c:587
+#, c-format
+msgid "The '%s' option is specific for Windows"
+msgstr "Опция «%s» специфична для Windows"
+
+#: src/ovpn-parse.c:720
+#, c-format
+msgid ""
+"Too few arguments (%d). The minimum number of arguments for the '%s' option "
+"is %d"
+msgstr ""
+"Слишком мало аргументов (%1$d). Опция «%2$s» должна иметь не менее %3$d "
+"аргументов"
+
+#: src/ovpn-parse.c:730
+#, c-format
+msgid ""
+"Too many arguments (%d). The maximum number of arguments for the '%s' option "
+"is %d"
+msgstr ""
+"Слишком много аргументов (%1$d). Опция «%2$s» должна иметь не более %3$d "
+"аргументов"
+
+#: src/ovpn-parse.c:309
+#, c-format
+msgid "Unexpected end of inline option '%s'"
+msgstr "Неожиданное завершение встраиваемой (inline) опции «%s»"
+
+#: src/ovpn-parse.c:271
+msgid "Unexpected start of inline option"
+msgstr "Неожиданное начало встраиваемой (inline) опции"
+
+#: src/ovpn-parse.c:339
+#, c-format
+msgid "Unknown inline option '%s'"
+msgstr "Неизвестная встраиваемая (inline) опция «%s»"
+
+#: src/ovpn-parse.c:799
+#, c-format
+msgid "Unknown option '%s'"
+msgstr "Неизвестная опция «%s»"

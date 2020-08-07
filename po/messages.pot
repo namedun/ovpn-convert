@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ovpn-convert package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ovpn-convert 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 05:12+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/ovpn-parse.c:283
+msgid "Ending inline option is not match starting inline option"
+msgstr ""
+
+#: src/ovpn-parse.c:578
+#, c-format
+msgid "Option '%s' can be used only in standalone mode"
+msgstr ""
+
+#: src/ovpn-parse.c:328
+#, c-format
+msgid "Option '%s' can not be used in inline form"
+msgstr ""
+
+#: src/ovpn-parse.c:698
+#, c-format
+msgid "Option '%s' has invalid argument #%d (%s) value '%s'"
+msgstr ""
+
+#: src/ovpn-parse.c:568
+#, c-format
+msgid "Option '%s' is deprecated and can be removed in future OpenVPN versions"
+msgstr ""
+
+#: src/ovpn-parse.c:587
+#, c-format
+msgid "The '%s' option is specific for Windows"
+msgstr ""
+
+#: src/ovpn-parse.c:720
+#, c-format
+msgid ""
+"Too few arguments (%d). The minimum number of arguments for the '%s' option "
+"is %d"
+msgstr ""
+
+#: src/ovpn-parse.c:730
+#, c-format
+msgid ""
+"Too many arguments (%d). The maximum number of arguments for the '%s' option "
+"is %d"
+msgstr ""
+
+#: src/ovpn-parse.c:309
+#, c-format
+msgid "Unexpected end of inline option '%s'"
+msgstr ""
+
+#: src/ovpn-parse.c:271
+msgid "Unexpected start of inline option"
+msgstr ""
+
+#: src/ovpn-parse.c:339
+#, c-format
+msgid "Unknown inline option '%s'"
+msgstr ""
+
+#: src/ovpn-parse.c:799
+#, c-format
+msgid "Unknown option '%s'"
+msgstr ""
